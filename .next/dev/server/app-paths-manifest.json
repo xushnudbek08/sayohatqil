@@ -1,0 +1,11 @@
+{
+  "/about/page": "app/about/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/news/page": "app/admin/news/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/tours/page": "app/admin/tours/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/news/page": "app/news/page.js",
+  "/page": "app/page.js",
+  "/tours/page": "app/tours/page.js"
+}
