@@ -15,10 +15,10 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 "use client";
 ;
 const AuthContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"])(undefined);
-// Demo credentials - in production, use proper authentication
+// Admin credentials - o'zingizga moslab yozib qo'yishingiz mumkin
 const DEMO_CREDENTIALS = {
-    username: "admin",
-    password: "admin123"
+    username: "ecosayohat_admin",
+    password: "eco2025"
 };
 function AuthProvider({ children }) {
     _s();

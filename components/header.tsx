@@ -4,9 +4,10 @@ import Link from "next/link"
 import { useState } from "react"
 import { useLanguage } from "@/lib/language-context"
 import type { Language } from "@/lib/translations"
-import { Menu, X, Globe, Compass } from "lucide-react"
+import { Menu, X, Globe } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import EcoSayohatLogo from "@/components/eco-sayohat-logo"
 
 const languages: { code: Language; label: string; flag: string }[] = [
   { code: "uz", label: "O'zbekcha", flag: "🇺🇿" },
@@ -32,10 +33,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary">
-              <Compass className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="font-bold text-xl text-foreground">Sayohat Qil</span>
+            <EcoSayohatLogo width={220} height={60} className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -51,7 +49,7 @@ export function Header() {
             ))}
           </nav>
 
-          {/* Right side: Language & Admin */}
+          {/* Right side: Language */}
           <div className="flex items-center gap-2">
             {/* Language Selector */}
             <DropdownMenu>
@@ -75,13 +73,6 @@ export function Header() {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            {/* Admin Link (Desktop) */}
-            <Link href="/admin" className="hidden md:block">
-              <Button variant="outline" size="sm">
-                {t.nav.admin}
-              </Button>
-            </Link>
-
             {/* Mobile Menu Button */}
             <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -103,13 +94,6 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="/admin"
-                className="px-4 py-2 text-muted-foreground hover:text-primary hover:bg-accent rounded-md transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {t.nav.admin}
-              </Link>
             </div>
           </nav>
         )}

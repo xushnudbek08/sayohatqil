@@ -167,11 +167,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx_
 ;
 ;
 const metadata = {
-    title: "Sayohat Qil - O'zbekiston bo'ylab sayohat",
-    description: "O'zbekistonning eng go'zal joylariga professional sayohat xizmatlari. Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarga turlar.",
-    generator: "v0.app",
+    title: "Ecosayohat - O'zbekiston bo'ylab eco sayohatlar",
+    description: "Ecosayohat bilan O'zbekistonda ekologik va mas'uliyatli sayohatlar: Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarga qulay va xavfsiz turlar.",
+    generator: "Ecosayohat",
     icons: {
-        icon: "/placeholder-logo.svg",
+        icon: "/icon-eco.svg",
         apple: "/apple-icon.png"
     }
 };

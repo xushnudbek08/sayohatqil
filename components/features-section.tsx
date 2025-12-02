@@ -46,18 +46,33 @@ export function FeaturesSection() {
   const { language } = useLanguage()
 
   return (
-    <section className="py-16 md:py-20 bg-muted">
+    <section className="py-16 md:py-20 bg-muted/60">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="max-w-2xl mx-auto text-center mb-10">
+          <p className="text-xs font-semibold tracking-[0.2em] text-emerald-700 uppercase mb-2">
+            Nega aynan biz?
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+            Har bir safaringiz xavfsiz, qulay va ekologik bo‘lsin
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon
             return (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
-                  <Icon className="w-8 h-8 text-primary" />
+              <div
+                key={index}
+                className="text-center rounded-2xl bg-background shadow-sm hover:shadow-md transition-shadow p-6 border border-border/70"
+              >
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
+                  <Icon className="w-7 h-7 text-primary" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">{feature.title[language]}</h3>
-                <p className="text-muted-foreground text-sm">{feature.description[language]}</p>
+                <h3 className="font-semibold text-foreground mb-2 text-sm md:text-base">
+                  {feature.title[language]}
+                </h3>
+                <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">
+                  {feature.description[language]}
+                </p>
               </div>
             )
           })}

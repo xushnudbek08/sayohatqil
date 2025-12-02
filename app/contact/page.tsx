@@ -39,14 +39,14 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: { uz: "Telefon", ru: "Телефон", en: "Phone" },
-      value: "+998 71 123 45 67",
-      link: "tel:+998711234567",
+      value: "+998 99 588 48 84",
+      link: "tel:+998995884884",
     },
     {
       icon: Mail,
       title: { uz: "Email", ru: "Email", en: "Email" },
-      value: "info@sayohatqil.uz",
-      link: "mailto:info@sayohatqil.uz",
+      value: "info@ecosayohat.uz",
+      link: "mailto:info@ecosayohat.uz",
     },
     {
       icon: MapPin,

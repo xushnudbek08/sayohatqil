@@ -10,10 +10,10 @@ type AuthContextType = {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
-// Demo credentials - in production, use proper authentication
+// Admin credentials - o'zingizga moslab yozib qo'yishingiz mumkin
 const DEMO_CREDENTIALS = {
-  username: "admin",
-  password: "admin123",
+  username: "ecosayohat_admin",
+  password: "eco2025",
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {

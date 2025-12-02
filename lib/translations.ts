@@ -20,7 +20,7 @@ export const translations = {
     // About
     about: {
       title: "Biz haqimizda",
-      subtitle: "Sayohat Qil - O'zbekiston bo'ylab professional sayohat xizmatlari",
+      subtitle: "Ecosayohat - O'zbekiston bo'ylab professional sayohat xizmatlari",
       description:
         "Biz 2015-yildan buyon O'zbekistonning eng go'zal joylariga sayohatlar tashkil qilib kelmoqdamiz. Bizning tajribali gidlarimiz sizga Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarning sirlarini ochib berishadi.",
       mission: "Bizning missiyamiz",
@@ -92,7 +92,7 @@ export const translations = {
     // About
     about: {
       title: "О нас",
-      subtitle: "Sayohat Qil - профессиональные туристические услуги по Узбекистану",
+      subtitle: "Ecosayohat - профессиональные туристические услуги по Узбекистану",
       description:
         "С 2015 года мы организуем туры по самым красивым местам Узбекистана. Наши опытные гиды раскроют вам тайны Самарканда, Бухары, Хивы и других исторических городов.",
       mission: "Наша миссия",
@@ -164,7 +164,7 @@ export const translations = {
     // About
     about: {
       title: "About Us",
-      subtitle: "Sayohat Qil - Professional travel services across Uzbekistan",
+      subtitle: "Ecosayohat - Professional travel services across Uzbekistan",
       description:
         "Since 2015, we have been organizing tours to the most beautiful places in Uzbekistan. Our experienced guides will reveal the secrets of Samarkand, Bukhara, Khiva and other historical cities.",
       mission: "Our Mission",

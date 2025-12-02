@@ -35,7 +35,10 @@ export function FeaturedTours() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {tours.map((tour, index) => (
-            <Card key={tour.id} className="overflow-hidden group hover:shadow-lg transition-shadow">
+            <Card
+              key={tour.id}
+              className="overflow-hidden group hover:shadow-xl transition-all border-border/70 hover:-translate-y-1"
+            >
               <div className="relative h-48 overflow-hidden">
                 <Image
                   src={tourImages[index] || tour.image}
@@ -62,7 +65,11 @@ export function FeaturedTours() {
                   </div>
                 </div>
                 <Link href={`/tours/${tour.slug}`}>
-                  <Button variant="outline" size="sm" className="w-full gap-2 bg-transparent">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full gap-2 bg-transparent group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary"
+                  >
                     {t.tours.viewDetails}
                     <ArrowRight className="w-4 h-4" />
                   </Button>

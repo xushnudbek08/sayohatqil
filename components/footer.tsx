@@ -2,7 +2,8 @@
 
 import Link from "next/link"
 import { useLanguage } from "@/lib/language-context"
-import { Compass, Phone, Mail, MapPin, Facebook, Instagram, Youtube, Send } from "lucide-react"
+import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Send } from "lucide-react"
+import EcoSayohatLogo from "@/components/eco-sayohat-logo"
 
 export function Footer() {
   const { t } = useLanguage()
@@ -14,10 +15,7 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-primary">
-                <Compass className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="font-bold text-xl text-foreground">Sayohat Qil</span>
+              <EcoSayohatLogo width={220} height={60} className="h-10 w-auto" />
             </Link>
             <p className="text-muted-foreground text-sm">{t.about.subtitle}</p>
           </div>
@@ -55,11 +53,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-muted-foreground text-sm">
                 <Phone className="w-4 h-4 text-primary" />
-                +998 71 123 45 67
+                +998 99 588 48 84
               </li>
               <li className="flex items-center gap-2 text-muted-foreground text-sm">
                 <Mail className="w-4 h-4 text-primary" />
-                info@sayohatqil.uz
+                info@ecosayohat.uz
               </li>
               <li className="flex items-start gap-2 text-muted-foreground text-sm">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
@@ -91,8 +89,11 @@ export function Footer() {
                 <Youtube className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://t.me/RasulbekKochkarbayUgli"
+                target="_blank"
+                rel="noreferrer"
                 className="w-10 h-10 rounded-full bg-accent flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                aria-label="Telegram"
               >
                 <Send className="w-5 h-5" />
               </a>
@@ -103,7 +104,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Sayohat Qil. {t.footer.rights}.
+            © {new Date().getFullYear()} Ecosayohat. {t.footer.rights}.
           </p>
         </div>
       </div>

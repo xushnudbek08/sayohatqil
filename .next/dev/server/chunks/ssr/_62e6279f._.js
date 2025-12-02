@@ -213,7 +213,7 @@ function AdminLoginPage() {
             password: "Parol",
             login: "Kirish",
             error: "Noto'g'ri foydalanuvchi nomi yoki parol",
-            demo: "Demo: admin / admin123"
+            demo: "Login: ecosayohat_admin / eco2025"
         },
         ru: {
             title: "Админ Панель",
@@ -222,7 +222,7 @@ function AdminLoginPage() {
             password: "Пароль",
             login: "Войти",
             error: "Неверное имя пользователя или пароль",
-            demo: "Демо: admin / admin123"
+            demo: "Логин: ecosayohat_admin / eco2025"
         },
         en: {
             title: "Admin Panel",
@@ -231,7 +231,7 @@ function AdminLoginPage() {
             password: "Password",
             login: "Login",
             error: "Invalid username or password",
-            demo: "Demo: admin / admin123"
+            demo: "Login: ecosayohat_admin / eco2025"
         }
     };
     const t = content[language];
