@@ -672,7 +672,7 @@ function EcoSayohatLogo({ width = 600, height = 600, className = "", title = "Ec
         className: className,
         width: width,
         height: height,
-        viewBox: "0 0 400 400",
+        viewBox: "0 0 400 399",
         xmlns: "http://www.w3.org/2000/svg",
         role: "img",
         "aria-label": title,
