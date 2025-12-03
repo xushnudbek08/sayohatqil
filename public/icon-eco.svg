@@ -1,18 +1,29 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Yashil fonli doira (kattaroq) -->
-  <circle cx="32" cy="32" r="28" fill="#2F7B3A" />
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Eco Travel icon">
+  <title>Eco Travel icon</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#98D08E" />
+      <stop offset="100%" stop-color="#7FB36B" />
+    </linearGradient>
+    <filter id="ds" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000" flood-opacity="0.18" />
+    </filter>
+  </defs>
 
-  <!-- Oq tog' va ufq chizig'i, markazda kattaroq -->
-  <path
-    d="M14 42l8.5-11 6.5 9 6.5-9 15 20H14Z"
-    fill="white"
-  />
-  <path
-    d="M14 42h36"
-    stroke="white"
-    stroke-width="2.4"
-    stroke-linecap="round"
-  />
+  <!-- Outer ring with subtle gradient and shadow -->
+  <g filter="url(#ds)">
+    <circle cx="32" cy="24" r="18" fill="url(#g)" stroke="#6EA85C" stroke-width="3" />
+  </g>
+
+  <!-- White mountain silhouette inside the circle -->
+  <g transform="translate(0,6)">
+    <path d="M14 34 L22 20 L28 28 L34 16 L42 34 L14 34 Z" fill="#FFFFFF" />
+    <!-- small ridge detail -->
+    <path d="M20 32 L24 26 L28 30" stroke="#E6F3E6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Small sun for visual interest -->
+  <circle cx="46" cy="18" r="3" fill="#FFE082" opacity="0.95" />
 </svg>
 
 

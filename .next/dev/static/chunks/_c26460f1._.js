@@ -696,35 +696,122 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "use strict";
 
 __turbopack_context__.s([
-    "EcoSayohatLogo",
-    ()=>EcoSayohatLogo,
     "default",
-    ()=>__TURBOPACK__default__export__
+    ()=>EcoSayohatLogo
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 ;
-;
-function EcoSayohatLogo({ width = 640, height = 300, className = "" }) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        src: "/eco-sayohat-logo.png",
-        alt: "Eco Sayohat",
+function EcoSayohatLogo({ width = 600, height = 600, className = "", title = "Eco Travel logo" }) {
+    const color = "#7FB36B";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        className: className,
         width: width,
         height: height,
-        className: className,
-        priority: true,
-        style: {
-            width: "auto",
-            height: "auto"
-        }
-    }, void 0, false, {
+        viewBox: "0 0 400 400",
+        xmlns: "http://www.w3.org/2000/svg",
+        role: "img",
+        "aria-label": title,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                children: title
+            }, void 0, false, {
+                fileName: "[project]/components/eco-sayohat-logo.tsx",
+                lineNumber: 28,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                cx: "300",
+                cy: "200",
+                r: "150",
+                fill: "none",
+                stroke: color,
+                strokeWidth: "16",
+                opacity: "0.95"
+            }, void 0, false, {
+                fileName: "[project]/components/eco-sayohat-logo.tsx",
+                lineNumber: 31,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                cx: "300",
+                cy: "200",
+                r: "120",
+                fill: "none",
+                stroke: color,
+                strokeWidth: "10",
+                opacity: "0.95"
+            }, void 0, false, {
+                fileName: "[project]/components/eco-sayohat-logo.tsx",
+                lineNumber: 32,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+                transform: "translate(0,30)",
+                stroke: color,
+                strokeWidth: "12",
+                strokeLinecap: "round",
+                strokeLinejoin: "round",
+                fill: "none",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M170 300 L240 210 L300 260 L360 190 L430 300"
+                    }, void 0, false, {
+                        fileName: "[project]/components/eco-sayohat-logo.tsx",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M190 300 L230 250 L270 290"
+                    }, void 0, false, {
+                        fileName: "[project]/components/eco-sayohat-logo.tsx",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/eco-sayohat-logo.tsx",
+                lineNumber: 35,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
+                x: "300",
+                y: "400",
+                textAnchor: "middle",
+                fontFamily: "Montserrat, Arial, sans-serif",
+                fontSize: "64",
+                fontWeight: 800,
+                fill: color,
+                letterSpacing: "2",
+                children: "ECO TRAVEL"
+            }, void 0, false, {
+                fileName: "[project]/components/eco-sayohat-logo.tsx",
+                lineNumber: 41,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
+                x: "300",
+                y: "455",
+                textAnchor: "middle",
+                fontFamily: "Montserrat, Arial, sans-serif",
+                fontSize: "28",
+                fontWeight: 600,
+                fill: color,
+                opacity: "0.9",
+                letterSpacing: "4",
+                children: "TOURISM AGENCY"
+            }, void 0, false, {
+                fileName: "[project]/components/eco-sayohat-logo.tsx",
+                lineNumber: 44,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/components/eco-sayohat-logo.tsx",
-        lineNumber: 12,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
 _c = EcoSayohatLogo;
-const __TURBOPACK__default__export__ = EcoSayohatLogo;
 var _c;
 __turbopack_context__.k.register(_c, "EcoSayohatLogo");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

@@ -1,208 +1,186 @@
-[00:00:02.609] Server  LOG      ✓ Ready in 1632ms
-[00:00:07.694] Server  LOG      ○ Compiling / ...
-[00:00:15.935] Server  WARN     ⚠ Cross origin request detected from 192.168.100.7 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:02.774] Server  LOG      ✓ Ready in 1767ms
+[00:00:08.111] Server  LOG      ○ Compiling / ...
+[00:00:24.546] Server  WARN     ⚠ Cross origin request detected from 172.20.1.93 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:16.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.342] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:16.343] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:16.343] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764688902136}
-[00:00:16.462] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:24.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.369] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:44.134] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:25.995] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:25.995] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:25.995] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764745933130}
+[00:02:10.545] Server  LOG      ✓ Compiled in 570ms
+[00:02:33.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:33.833] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:33.833] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:33.833] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746060906}
+[00:02:33.833] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:44.353] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:44.353] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:44.353] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/?id=e41357d7-d588-413c-9c1b-c11b2e640ad1&vscodeBrowserReqId=1764688927633 color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/?id=e41357d7-d588-413c-9c1b-c11b2e640ad1&vscodeBrowserReqId=1764688927633","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764688930008}
-[00:00:47.179] Server  LOG      ✓ Compiled in 329ms
-[00:00:52.931] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:52.932] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:52.932] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/?id=e41357d7-d588-413c-9c1b-c11b2e640ad1&vscodeBrowserReqId=1764688936986 color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/?id=e41357d7-d588-413c-9c1b-c11b2e640ad1&vscodeBrowserReqId=1764688936986","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764688938550}
-[00:00:52.932] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:04:09.679] Server  LOG      ✓ Compiled in 155ms
+[00:04:33.890] Server  LOG      ✓ Compiled in 247ms
+[00:04:38.964] Server  LOG      ✓ Compiled in 206ms
+[00:04:47.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:47.614] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:47.614] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:47.614] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746194701}
+[00:04:47.614] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:01.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:02.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:02.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:02.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764688948061}
-[00:01:02.374] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:04:57.403] Server  LOG      ✓ Compiled in 124ms
+[00:05:00.366] Server  LOG      ✓ Compiled in 143ms
+[00:05:03.138] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:03.522] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:03.522] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:03.522] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746210624}
+[00:05:03.522] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:22.823] Server  LOG      ✓ Compiled in 445ms
-[00:01:28.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:28.576] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:28.576] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:28.577] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764688974247}
-[00:01:28.577] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:05:05.663] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:06.046] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:06.046] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:06.047] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746213155}
+[00:05:06.047] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:35.860] Server  LOG      ✓ Compiled in 423ms
-[00:02:41.658] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:41.919] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:41.919] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:41.919] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689047614}
-[00:02:41.919] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:05:28.775] Server  LOG      ✓ Compiled in 278ms
+[00:05:29.342] Browser ERROR   ./components/eco-sayohat-logo.tsx:11:15
+Parsing ecmascript source code failed
+   9 |
+  10 | export default function EcoSayohatLogo({
+> 11 |   width = 1000px,
+     |               ^
+  12 |   height = 1000,
+  13 |   className = "",
+  14 |   title = "Eco Travel logo",
+
+Identifier cannot follow number
+
+Import traces:
+  Client Component Browser:
+    ./components/eco-sayohat-logo.tsx [Client Component Browser]
+    ./components/footer.tsx [Client Component Browser]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/eco-sayohat-logo.tsx [Client Component SSR]
+    ./components/footer.tsx [Client Component SSR]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:05:36.269] Browser ERROR   ./components/eco-sayohat-logo.tsx:11:15
+Parsing ecmascript source code failed
+   9 |
+  10 | export default function EcoSayohatLogo({
+> 11 |   width = 1000px,
+     |               ^
+  12 |   height = 1000px,
+  13 |   className = "",
+  14 |   title = "Eco Travel logo",
+
+Identifier cannot follow number
+
+Import traces:
+  Client Component Browser:
+    ./components/eco-sayohat-logo.tsx [Client Component Browser]
+    ./components/footer.tsx [Client Component Browser]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/eco-sayohat-logo.tsx [Client Component SSR]
+    ./components/footer.tsx [Client Component SSR]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:05:44.210] Server  LOG      ✓ Compiled in 150ms
+[00:05:44.316] Browser ERROR   ./components/eco-sayohat-logo.tsx:12:12
+Parsing ecmascript source code failed
+  10 | export default function EcoSayohatLogo({
+  11 |   width = 1000,
+> 12 |   height = 00,
+     |            ^^
+  13 |   className = "",
+  14 |   title = "Eco Travel logo",
+  15 | }: EcoSayohatLogoProps) {
+
+Legacy octal escape is not permitted in strict mode
+
+Import traces:
+  Client Component Browser:
+    ./components/eco-sayohat-logo.tsx [Client Component Browser]
+    ./components/footer.tsx [Client Component Browser]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/eco-sayohat-logo.tsx [Client Component SSR]
+    ./components/footer.tsx [Client Component SSR]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:05:44.316] Browser ERROR   ./components/eco-sayohat-logo.tsx:12:12
+Parsing ecmascript source code failed
+  10 | export default function EcoSayohatLogo({
+  11 |   width = 1000,
+> 12 |   height = 00,
+     |            ^^
+  13 |   className = "",
+  14 |   title = "Eco Travel logo",
+  15 | }: EcoSayohatLogoProps) {
+
+Legacy octal literals are not available when targeting ECMAScript 5 and higher
+
+Import traces:
+  Client Component Browser:
+    ./components/eco-sayohat-logo.tsx [Client Component Browser]
+    ./components/footer.tsx [Client Component Browser]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/eco-sayohat-logo.tsx [Client Component SSR]
+    ./components/footer.tsx [Client Component SSR]
+    ./components/footer.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:05:48.333] Server  LOG      ✓ Compiled in 234ms
+[00:05:50.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:51.255] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:51.255] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:51.255] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746258352}
+[00:05:51.255] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:44.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:45.142] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:45.142] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:45.142] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689050938}
-[00:02:45.265] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:05:53.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:53.850] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:53.850] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:53.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746260915}
+[00:05:53.850] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:53.469] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:53.846] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:53.847] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:53.847] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689059532}
-[00:02:53.847] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:06:29.315] Server  LOG      ✓ Compiled in 114ms
+[00:06:31.715] Server  LOG      ✓ Compiled in 136ms
+[00:06:32.915] Server  LOG      ✓ Compiled in 229ms
+[00:06:35.852] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:36.352] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:36.352] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:36.352] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746303425}
+[00:06:36.352] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:56.900] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:57.123] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:57.123] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:57.123] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689062918}
-[00:02:57.225] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:06:39.007] Server  LOG      ✓ Compiled in 118ms
+[00:06:42.470] Server  LOG      ✓ Compiled in 107ms
+[00:06:44.706] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:45.106] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:45.106] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:06:45.106] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746312232}
+[00:06:45.260] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:12.892] Server  LOG      ✓ Compiled in 873ms
-[00:03:18.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:18.544] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:18.544] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:03:18.544] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689084206}
-[00:03:18.544] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:06:47.084] Server  LOG      ✓ Compiled in 84ms
+[00:06:48.977] Server  LOG      ✓ Compiled in 102ms
+[00:06:51.266] Server  LOG      ✓ Compiled in 143ms
+[00:06:55.731] Server  LOG      ✓ Compiled in 108ms
+[00:06:58.631] Server  LOG      ✓ Compiled in 143ms
+[00:08:19.068] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:19.642] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:19.642] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:19.642] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746406676}
+[00:08:19.643] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:21.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:22.307] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:22.307] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:22.307] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689447991}
-[00:09:22.307] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:24.728] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:24.841] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:24.842] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:24.842] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689450601}
-[00:09:24.910] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:10:44.744] Server  LOG      ✓ Compiled in 393ms
-[00:10:46.270] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:46.651] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:46.651] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:10:46.651] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689532347}
-[00:10:46.651] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:12:09.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:10.235] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:12:10.235] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:12:10.235] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689616024}
-[00:12:10.400] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:14:39.865] Server  LOG      ✓ Compiled in 309ms
-[00:14:41.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:42.354] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:42.354] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:42.354] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689768011}
-[00:14:42.354] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:14:44.835] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:45.154] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:45.154] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:45.154] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689770853}
-[00:14:45.155] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:28.735] Server  LOG      ✓ Compiled in 350ms
-[00:15:30.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:30.740] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:15:30.740] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:15:30.740] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689816491}
-[00:15:30.861] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:16:43.637] Server  LOG      ✓ Compiled in 137ms
-[00:16:50.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:50.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:50.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:16:50.986] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689896628}
-[00:16:50.986] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:17:27.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:27.285] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:27.285] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:17:27.285] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689932988}
-[00:17:27.285] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:18:11.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:11.591] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:11.591] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:11.591] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764689977285}
-[00:18:11.592] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:19:08.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:08.902] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:08.902] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:19:08.902] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690034671}
-[00:19:09.023] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:19:35.672] Server  LOG      ✓ Compiled in 159ms
-[00:19:38.330] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:38.661] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:38.661] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:19:38.661] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690064411}
-[00:19:38.781] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:20:37.014] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:37.654] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:20:38.111] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:38.111] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:38.111] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690123767}
-[00:20:43.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:44.194] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:44.194] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:44.194] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690129968}
-[00:20:44.371] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:21:38.489] Server  LOG      ✓ Compiled in 437ms
-[00:21:45.300] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:45.642] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:21:45.642] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:21:45.642] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690191381}
-[00:21:45.748] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:22:40.019] Server  LOG      ✓ Compiled in 274ms
-[00:22:59.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:59.663] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:22:59.663] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:22:59.664] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690265430}
-[00:22:59.772] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:23:42.795] Server  LOG      ✓ Compiled in 184ms
-[00:23:54.774] Server  LOG      ✓ Compiled in 226ms
-[00:24:04.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:04.919] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:24:04.919] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:24:04.919] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690330670}
-[00:24:05.034] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:24:14.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:14.581] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:24:14.581] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:24:14.582] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690340239}
-[00:24:14.582] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:24:21.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:22.225] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:24:22.225] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:24:22.225] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690347836}
-[00:24:22.225] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:25:05.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:05.859] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:05.860] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:25:05.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690391578}
-[00:25:05.981] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:25:17.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:18.196] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:18.196] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:25:18.196] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690403866}
-[00:25:18.196] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:25:18.706] Server  LOG      ✓ Compiled in 238ms
-[00:25:42.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:42.996] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:42.996] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:25:42.996] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.7:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.7:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764690428761}
-[00:25:43.134] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:09:03.878] Server  LOG      ✓ Compiled in 403ms
+[00:09:25.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:26.295] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:09:26.296] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:09:26.296] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://172.20.1.93:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://172.20.1.93:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.0","sv":"0.1.3","ts":1764746473402}
+[00:09:26.296] Browser WARN    Image with src "/registan-samarkand-uzbekistan-ancient-architecture.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
