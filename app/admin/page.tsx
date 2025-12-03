@@ -45,7 +45,7 @@ export default function AdminLoginPage() {
       password: "Parol",
       login: "Kirish",
       error: "Noto'g'ri foydalanuvchi nomi yoki parol",
-      demo: "Login: ecosayohat_admin / eco2025",
+      demo: "Login: ecotravel_admin / eco2025",
     },
     ru: {
       title: "Админ Панель",
@@ -54,7 +54,7 @@ export default function AdminLoginPage() {
       password: "Пароль",
       login: "Войти",
       error: "Неверное имя пользователя или пароль",
-      demo: "Логин: ecosayohat_admin / eco2025",
+      demo: "Логин: ecotravel_admin / eco2025",
     },
     en: {
       title: "Admin Panel",
@@ -63,7 +63,7 @@ export default function AdminLoginPage() {
       password: "Password",
       login: "Login",
       error: "Invalid username or password",
-      demo: "Login: ecosayohat_admin / eco2025",
+      demo: "Login: ecotravel_admin / eco2025",
     },
   }
 

@@ -10,10 +10,10 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ecosayohat - O'zbekiston bo'ylab eco sayohatlar",
+  title: "Eco Travel - O'zbekiston bo'ylab eco sayohatlar",
   description:
-    "Ecosayohat bilan O'zbekistonda ekologik va mas'uliyatli sayohatlar: Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarga qulay va xavfsiz turlar.",
-  generator: "Ecosayohat",
+    "Eco Travel bilan O'zbekistonda ekologik va mas'uliyatli sayohatlar: Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarga qulay va xavfsiz turlar.",
+  generator: "Eco Travel",
   icons: {
     icon: "/icon-eco.svg",
     apple: "/apple-icon.png",

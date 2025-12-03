@@ -12,7 +12,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 // Admin credentials - o'zingizga moslab yozib qo'yishingiz mumkin
 const DEMO_CREDENTIALS = {
-  username: "ecosayohat_admin",
+  username: "ecotravel_admin",
   password: "eco2025",
 }
 

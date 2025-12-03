@@ -27,7 +27,7 @@ export function HeroSection() {
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="max-w-xl space-y-6 bg-background/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-lg shadow-black/20">
           <p className="inline-flex items-center rounded-full bg-emerald-500/20 text-emerald-100 px-3 py-1 text-xs md:text-sm font-medium border border-emerald-300/40">
-            ECO SAYOHAT · O'zbekiston bo'ylab qulay va xavfsiz turlar
+            ECO TRAVEL · O'zbekiston bo'ylab qulay va xavfsiz turlar
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 text-balance leading-tight">
             {t.hero.title}

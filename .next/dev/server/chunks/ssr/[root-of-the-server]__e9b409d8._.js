@@ -167,9 +167,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx_
 ;
 ;
 const metadata = {
-    title: "Ecosayohat - O'zbekiston bo'ylab eco sayohatlar",
-    description: "Ecosayohat bilan O'zbekistonda ekologik va mas'uliyatli sayohatlar: Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarga qulay va xavfsiz turlar.",
-    generator: "Ecosayohat",
+    title: "Eco Travel - O'zbekiston bo'ylab eco sayohatlar",
+    description: "Eco Travel bilan O'zbekistonda ekologik va mas'uliyatli sayohatlar: Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarga qulay va xavfsiz turlar.",
+    generator: "Eco Travel",
     icons: {
         icon: "/icon-eco.svg",
         apple: "/apple-icon.png"

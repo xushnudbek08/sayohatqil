@@ -28,7 +28,7 @@ const translations = {
         // About
         about: {
             title: "Biz haqimizda",
-            subtitle: "Ecosayohat - O'zbekiston bo'ylab professional sayohat xizmatlari",
+            subtitle: "Eco Travel - O'zbekiston bo'ylab professional sayohat xizmatlari",
             description: "Biz 2015-yildan buyon O'zbekistonning eng go'zal joylariga sayohatlar tashkil qilib kelmoqdamiz. Bizning tajribali gidlarimiz sizga Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarning sirlarini ochib berishadi.",
             mission: "Bizning missiyamiz",
             missionText: "Har bir sayohatchi uchun unutilmas tajriba yaratish va O'zbekistonning boy madaniy merosini dunyoga tanishtirish.",
@@ -98,7 +98,7 @@ const translations = {
         // About
         about: {
             title: "О нас",
-            subtitle: "Ecosayohat - профессиональные туристические услуги по Узбекистану",
+            subtitle: "Eco Travel - профессиональные туристические услуги по Узбекистану",
             description: "С 2015 года мы организуем туры по самым красивым местам Узбекистана. Наши опытные гиды раскроют вам тайны Самарканда, Бухары, Хивы и других исторических городов.",
             mission: "Наша миссия",
             missionText: "Создать незабываемые впечатления для каждого путешественника и познакомить мир с богатым культурным наследием Узбекистана.",
@@ -168,7 +168,7 @@ const translations = {
         // About
         about: {
             title: "About Us",
-            subtitle: "Ecosayohat - Professional travel services across Uzbekistan",
+            subtitle: "Eco Travel - Professional travel services across Uzbekistan",
             description: "Since 2015, we have been organizing tours to the most beautiful places in Uzbekistan. Our experienced guides will reveal the secrets of Samarkand, Bukhara, Khiva and other historical cities.",
             mission: "Our Mission",
             missionText: "To create unforgettable experiences for every traveler and introduce the world to the rich cultural heritage of Uzbekistan.",
@@ -1277,7 +1277,7 @@ function Footer() {
                                                     lineNumber: 59,
                                                     columnNumber: 17
                                                 }, this),
-                                                "info@ecosayohat.uz"
+                                                "info@ecotravel.uz"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/footer.tsx",
@@ -1408,22 +1408,42 @@ function Footer() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-8 pt-8 border-t border-border text-center",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-muted-foreground text-sm",
-                        children: [
-                            "© ",
-                            new Date().getFullYear(),
-                            " Ecosayohat. ",
-                            t.footer.rights,
-                            "."
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/footer.tsx",
-                        lineNumber: 106,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                    className: "mt-8 pt-8 border-t border-border text-center space-y-2",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-muted-foreground text-sm",
+                            children: [
+                                "© ",
+                                new Date().getFullYear(),
+                                " Eco Travel. ",
+                                t.footer.rights,
+                                "."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/footer.tsx",
+                            lineNumber: 106,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-muted-foreground text-xs",
+                            children: [
+                                "Powered by ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "font-semibold",
+                                    children: "Xushnudbek"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/footer.tsx",
+                                    lineNumber: 110,
+                                    columnNumber: 24
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/footer.tsx",
+                            lineNumber: 109,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/components/footer.tsx",
                     lineNumber: 105,
                     columnNumber: 9
