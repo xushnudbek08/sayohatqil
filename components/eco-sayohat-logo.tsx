@@ -11,7 +11,7 @@ export default function EcoSayohatLogo({
   width = 600,
   height = 600,
   className = "",
-  title = "Eco Travel logo",
+  title = "Ecosayohat logo",
 }: EcoSayohatLogoProps) {
   const color = "#7FB36B"
 
@@ -39,7 +39,7 @@ export default function EcoSayohatLogo({
 
       {/* Tagline text */}
       <text x="300" y="400" textAnchor="middle" fontFamily="Montserrat, Arial, sans-serif" fontSize="64" fontWeight={800} fill={color} letterSpacing="2">
-        ECO TRAVEL
+        ECOSAYOHAT
       </text>
       <text x="300" y="455" textAnchor="middle" fontFamily="Montserrat, Arial, sans-serif" fontSize="28" fontWeight={600} fill={color} opacity="0.9" letterSpacing="4">
         TOURISM AGENCY

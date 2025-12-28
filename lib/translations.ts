@@ -20,9 +20,9 @@ export const translations = {
     // About
     about: {
       title: "Biz haqimizda",
-      subtitle: "Eco Travel - O'zbekiston bo'ylab professional sayohat xizmatlari",
+      subtitle: "Ecosayohat - O'zbekiston bo'ylab professional sayohat xizmatlari",
       description:
-        "Biz 2015-yildan buyon O'zbekistonning eng go'zal joylariga sayohatlar tashkil qilib kelmoqdamiz. Bizning tajribali gidlarimiz sizga Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarning sirlarini ochib berishadi.",
+        "Biz 2025-yildan buyon O'zbekistonning eng go'zal joylariga sayohatlar tashkil qilib kelmoqdamiz. Bizning tajribali gidlarimiz sizga Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarning sirlarini ochib berishadi.",
       mission: "Bizning missiyamiz",
       missionText:
         "Har bir sayohatchi uchun unutilmas tajriba yaratish va O'zbekistonning boy madaniy merosini dunyoga tanishtirish.",
@@ -92,9 +92,9 @@ export const translations = {
     // About
     about: {
       title: "О нас",
-      subtitle: "Eco Travel - профессиональные туристические услуги по Узбекистану",
+      subtitle: "Ecosayohat - профессиональные туристические услуги по Узбекистану",
       description:
-        "С 2015 года мы организуем туры по самым красивым местам Узбекистана. Наши опытные гиды раскроют вам тайны Самарканда, Бухары, Хивы и других исторических городов.",
+        "С 2025 года мы организуем туры по самым красивым местам Узбекистана. Наши опытные гиды раскроют вам тайны Самарканда, Бухары, Хивы и других исторических городов.",
       mission: "Наша миссия",
       missionText:
         "Создать незабываемые впечатления для каждого путешественника и познакомить мир с богатым культурным наследием Узбекистана.",
@@ -164,9 +164,9 @@ export const translations = {
     // About
     about: {
       title: "About Us",
-      subtitle: "Eco Travel - Professional travel services across Uzbekistan",
+      subtitle: "Ecosayohat - Professional travel services across Uzbekistan",
       description:
-        "Since 2015, we have been organizing tours to the most beautiful places in Uzbekistan. Our experienced guides will reveal the secrets of Samarkand, Bukhara, Khiva and other historical cities.",
+        "Since 2025, we have been organizing tours to the most beautiful places in Uzbekistan. Our experienced guides will reveal the secrets of Samarkand, Bukhara, Khiva and other historical cities.",
       mission: "Our Mission",
       missionText:
         "To create unforgettable experiences for every traveler and introduce the world to the rich cultural heritage of Uzbekistan.",

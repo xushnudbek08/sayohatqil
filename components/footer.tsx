@@ -57,7 +57,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-muted-foreground text-sm">
                 <Mail className="w-4 h-4 text-primary" />
-                info@ecotravel.uz
+                info@ecosayohat.uz
               </li>
               <li className="flex items-start gap-2 text-muted-foreground text-sm">
                 <MapPin className="w-4 h-4 text-primary mt-0.5" />
@@ -104,7 +104,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center space-y-2">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Eco Travel. {t.footer.rights}.
+            © {new Date().getFullYear()} Ecosayohat. {t.footer.rights}.
           </p>
           <p className="text-muted-foreground text-xs">
             Powered by <span className="font-semibold">Xushnudbek</span>

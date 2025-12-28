@@ -52,8 +52,8 @@ const translations = {
         // About
         about: {
             title: "Biz haqimizda",
-            subtitle: "Eco Travel - O'zbekiston bo'ylab professional sayohat xizmatlari",
-            description: "Biz 2015-yildan buyon O'zbekistonning eng go'zal joylariga sayohatlar tashkil qilib kelmoqdamiz. Bizning tajribali gidlarimiz sizga Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarning sirlarini ochib berishadi.",
+            subtitle: "Ecosayohat - O'zbekiston bo'ylab professional sayohat xizmatlari",
+            description: "Biz 2025-yildan buyon O'zbekistonning eng go'zal joylariga sayohatlar tashkil qilib kelmoqdamiz. Bizning tajribali gidlarimiz sizga Samarqand, Buxoro, Xiva va boshqa tarixiy shaharlarning sirlarini ochib berishadi.",
             mission: "Bizning missiyamiz",
             missionText: "Har bir sayohatchi uchun unutilmas tajriba yaratish va O'zbekistonning boy madaniy merosini dunyoga tanishtirish.",
             experience: "Tajriba",
@@ -122,8 +122,8 @@ const translations = {
         // About
         about: {
             title: "О нас",
-            subtitle: "Eco Travel - профессиональные туристические услуги по Узбекистану",
-            description: "С 2015 года мы организуем туры по самым красивым местам Узбекистана. Наши опытные гиды раскроют вам тайны Самарканда, Бухары, Хивы и других исторических городов.",
+            subtitle: "Ecosayohat - профессиональные туристические услуги по Узбекистану",
+            description: "С 2025 года мы организуем туры по самым красивым местам Узбекистана. Наши опытные гиды раскроют вам тайны Самарканда, Бухары, Хивы и других исторических городов.",
             mission: "Наша миссия",
             missionText: "Создать незабываемые впечатления для каждого путешественника и познакомить мир с богатым культурным наследием Узбекистана.",
             experience: "Опыт",
@@ -192,8 +192,8 @@ const translations = {
         // About
         about: {
             title: "About Us",
-            subtitle: "Eco Travel - Professional travel services across Uzbekistan",
-            description: "Since 2015, we have been organizing tours to the most beautiful places in Uzbekistan. Our experienced guides will reveal the secrets of Samarkand, Bukhara, Khiva and other historical cities.",
+            subtitle: "Ecosayohat - Professional travel services across Uzbekistan",
+            description: "Since 2025, we have been organizing tours to the most beautiful places in Uzbekistan. Our experienced guides will reveal the secrets of Samarkand, Bukhara, Khiva and other historical cities.",
             mission: "Our Mission",
             missionText: "To create unforgettable experiences for every traveler and introduce the world to the rich cultural heritage of Uzbekistan.",
             experience: "Experience",
@@ -666,7 +666,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 ;
-function EcoSayohatLogo({ width = 600, height = 600, className = "", title = "Eco Travel logo" }) {
+function EcoSayohatLogo({ width = 600, height = 600, className = "", title = "Ecosayohat logo" }) {
     const color = "#7FB36B";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         className: className,
@@ -747,7 +747,7 @@ function EcoSayohatLogo({ width = 600, height = 600, className = "", title = "Ec
                 fontWeight: 800,
                 fill: color,
                 letterSpacing: "2",
-                children: "ECO TRAVEL"
+                children: "ECOSAYOHAT"
             }, void 0, false, {
                 fileName: "[project]/components/eco-sayohat-logo.tsx",
                 lineNumber: 41,
@@ -1221,7 +1221,7 @@ function Footer() {
                                                     lineNumber: 59,
                                                     columnNumber: 17
                                                 }, this),
-                                                "info@ecotravel.uz"
+                                                "info@ecosayohat.uz"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/footer.tsx",
@@ -1359,7 +1359,7 @@ function Footer() {
                             children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " Eco Travel. ",
+                                " Ecosayohat. ",
                                 t.footer.rights,
                                 "."
                             ]

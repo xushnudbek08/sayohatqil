@@ -51,7 +51,7 @@ export function AdminSidebar() {
         </div>
         <div>
           <p className="font-semibold text-foreground text-sm">Admin Panel</p>
-          <p className="text-muted-foreground text-xs">Eco Travel</p>
+          <p className="text-muted-foreground text-xs">Ecosyhat</p>
         </div>
       </div>
 

@@ -45,8 +45,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: { uz: "Email", ru: "Email", en: "Email" },
-      value: "info@ecotravel.uz",
-      link: "mailto:info@ecotravel.uz",
+      value: "info@ecosayohat.uz",
+      link: "mailto:info@ecosayohat.uz",
     },
     {
       icon: MapPin,
