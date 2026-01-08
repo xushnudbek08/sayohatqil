@@ -1,4 +1,2 @@
-# sayohatqil
-# sayohatqil
-# sayohatqil
-# sayohatqil
+<img width="1366" height="768" alt="Screenshot From 2026-01-08 11-24-53" src="https://github.com/user-attachments/assets/0130a1d9-0ffc-42c5-86ef-19d82d2fe2e7" />
+Ecotravel aims to show tourists the ancient and historical monuments of Uzbekistan by traveling around Uzbekistan. This website is for selling tours of a tour company. The front end of the site was made in Suny Intellect and I made the necessary changes.
